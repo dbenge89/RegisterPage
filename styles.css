@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(25, 178, 230);
+}
+
+.navbar {
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 50px;
+    border-color: black 2px;
+}
+
+.contact {
+    color: rgb(255, 255, 255); 
+    font-size: 16px; 
+    line-height: 16px; 
+    padding: 6px; 
+    border-radius: 10px; 
+    font-family: Verdana, sans-serif; 
+    font-weight: normal; 
+    text-decoration: none; 
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(to right, rgb(28, 110, 164) 0%, rgb(20, 78, 117) 100%); 
+    box-shadow: rgba(0, 0, 0, 0) 5px 5px 15px 5px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block; 
+}
+
+.contact:hover {
+    background: #1C6EA4; 
+}
+    
+.contact:active {
+    background: #144E75; 
+}
